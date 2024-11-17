@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chaibucks - Your go-to destination for premium chai blends and delicious snacks. Experience the rich taste of tradition.">
     <title>Chaibucks - Premium Chai & Snacks</title>
     <style>
         /* General Styling */
@@ -16,7 +17,7 @@
 
         /* Background Image for Hero Section */
         .hero {
-            background: url('Screenshot 2024-11-16 at 5.54.18 PM.png') no-repeat center center/cover; /* Using uploaded image */
+            background: #BAB86C url('Screenshot 2024-11-16 at 5.54.18 PM.png') no-repeat center center/cover;
             height: 300px;
             display: flex;
             justify-content: center;
@@ -102,6 +103,11 @@
             bottom: 0;
             width: 100%;
         }
+
+        /* Accessibility Improvements */
+        a {
+            outline: none;
+        }
     </style>
 </head>
 <body>
@@ -129,52 +135,52 @@
     </section>
 
     <!-- Main Content -->
-    <div class="container">
+    <main>
         <!-- Featured Products Section -->
-        <section id="products">
+        <section id="products" class="container">
             <h2>Our Popular Chai Blends</h2>
             <div class="products">
                 <!-- Product 1: Classic Chai -->
-                <div class="product">
+                <article class="product">
                     <img src="Chaibucks.jpg" alt="Classic Chai">
                     <h3>Classic Chai - Spiced Perfection</h3>
                     <p>A warm and cozy cup of spiced chai, perfect for any time of day.</p>
-                </div>
+                </article>
 
                 <!-- Product 2: Green Tea -->
-                <div class="product">
+                <article class="product">
                     <img src="Greentea.jpg" alt="Green Tea">
                     <h3>Green Tea - Refreshing & Healthy</h3>
                     <p>A refreshing, healthy choice with a light, aromatic flavor.</p>
-                </div>
+                </article>
 
                 <!-- Product 3: Masala Chai -->
-                <div class="product">
+                <article class="product">
                     <img src="masalachai.jpg" alt="Masala Chai">
                     <h3>Masala Chai - Traditional Indian Flavor</h3>
                     <p>A bold, spiced tea with a mix of traditional Indian flavors.</p>
-                </div>
+                </article>
             </div>
         </section>
-    </div>
 
-    <!-- About Us Section -->
-    <div class="container" id="about">
-        <h2>About Us</h2>
-        <p>At Chaibucks, we blend tradition and quality to bring you the finest chai blends. Our mission is to provide an exceptional experience with every sip, honoring the rich heritage of tea-making.</p>
-    </div>
+        <!-- About Us Section -->
+        <section id="about" class="container">
+            <h2>About Us</h2>
+            <p>At Chaibucks, we blend tradition and quality to bring you the finest chai blends. Our mission is to provide an exceptional experience with every sip, honoring the rich heritage of tea-making.</p>
+        </section>
 
-    <!-- Contact Section -->
-    <div class="container" id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: <a href="mailto:info@chaibucks.com">info@chaibucks.com</a></p>
-        <p>Phone: (123) 456-7890</p>
-        <p>Follow us on:
-            <a href="#">Facebook</a> |
-            <a href="#">Instagram</a> |
-            <a href="#">Twitter</a>
-        </p>
-    </div>
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:info@chaibucks.com">info@chaibucks.com</a></p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Follow us on:
+                <a href="#">Facebook</a> |
+                <a href="#">Instagram</a> |
+                <a href="#">Twitter</a>
+            </p>
+        </section>
+    </main>
 
     <!-- Footer Section -->
     <footer>
